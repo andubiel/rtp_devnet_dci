@@ -1,0 +1,54 @@
+{
+	"id": "008d1b08-a916-403c-b9e5-59995d9e01dc",
+	"name": "ACI-Devnet-Demo-Env",
+	"values": [
+		{
+			"key": "apic",
+			"value": "192.168.1.225",
+			"enabled": true
+		},
+		{
+			"key": "username",
+			"value": "admin",
+			"enabled": true
+		},
+		{
+			"key": "password",
+			"value": "C!sc0123",
+			"enabled": true
+		},
+		{
+			"key": "vcenter_uname",
+			"value": "admin",
+			"description": "",
+			"enabled": true
+		},
+		{
+			"key": "vcenter_pw",
+			"value": "C!sc0123",
+			"description": "",
+			"enabled": true
+		},
+		{
+			"key": "vswitch_name",
+			"value": "dvs",
+			"description": "",
+			"enabled": false
+		},
+		{
+			"key": "vcenter_dom_name",
+			"value": "192.168.1.247",
+			"description": "",
+			"enabled": false
+		},
+		{
+			"key": "vcenter_dc",
+			"value": "DC",
+			"description": "",
+			"enabled": false
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2019-02-27T04:45:54.049Z",
+	"_postman_exported_using": "Postman/6.7.3"
+}
